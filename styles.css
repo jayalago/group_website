@@ -1,7 +1,9 @@
 /* General page styling */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Fredoka One', cursive;
+    background-color: #ffebe3;
     margin: 0;
     padding: 0;
 }
@@ -26,7 +28,7 @@ header nav {
 }
 
 header nav button {
-    background: #007BFF;
+    background: #d96464;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -36,7 +38,7 @@ header nav button {
 }
 
 header nav button:hover {
-    background: #0056b3;
+    background: #d43737;
 }
 
 /* Flex container for team bios and vision sections */
@@ -83,7 +85,7 @@ h2 {
 
 /* Button styling */
 button {
-    background: #007BFF;
+    background: #d96464;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -92,5 +94,5 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #d43737;
 }
